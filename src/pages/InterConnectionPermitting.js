@@ -30,7 +30,7 @@ export default class InterConnectionPermitting extends BaseComponent {
                 <div class="ic-e2e__container">
                     <div class="ic-e2e__content">
                         <h2 class="ic-e2e__title">End-to-End Interconnection & Permitting Support</h2>
-                        <p class="ic-e2e__subtitle">We’ve seen it all. Radiant specializes in difficult utilities and AHJs.</p>
+                        <p class="ic-e2e__subtitle">We’ve seen it all. ASGEICS India specializes in difficult utilities and AHJs.</p>
                         <ul class="ic-list">
                             <li>Robust portal to track all your projects</li>
                             <li>Interconnection application submission</li>
