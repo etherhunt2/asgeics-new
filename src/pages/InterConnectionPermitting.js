@@ -13,7 +13,7 @@ export default class InterConnectionPermitting extends BaseComponent {
             <!-- ========== HERO SECTION ========== -->
             <section class="ic-hero">
                 <div class="ic-hero__container">
-                    <h1 class="ic-hero__title">AHJ <span class="orange_title445">P</span>ermitting and <span class="indigo_title445">I</span>nterconnection</h1>
+                    <h1 class="ic-hero__title">AHJ Permitting </br>and Interconnection</h1>
                 </div>
             </section>
 
@@ -44,44 +44,19 @@ export default class InterConnectionPermitting extends BaseComponent {
                 </div>
             </section>
 
-            <!-- ========== DETAILS SECTION ========== -->
-            <section class="ic-details">
-                <div class="ic-details__container">
-                    <div class="ic-details__header">
-                        <h2>Permitting and Interconnection Support for Commercial and Residential Solar</h2>
+            <!--Image Gallery -->
+            <section class="ic-gallery">
+                <div class="ic-gallery__container">
+                    <div class="ic-gallery__title">
+                        <h2> All 50 States & Canada</h2>
+                        <p>End-to-End Solar Interconnection & Permitting Services</p>
                     </div>
-                    <div class="ic-details__grid">
-                        <div class="ic-details__image-wrap">
-                            <img src="/images/solar-permitting.webp" alt="Solar Permitting Support" class="ic-details__image" />
+                    <div class="ic-gallery__w100">
+                        <div class="ic-gallery__item">
+                            <img src="/images/interconnection1.png" />
                         </div>
-                        <div class="ic-details__content">
-                            <p>From initial submission to final approval, our team manages the entire AHJ permit application process. We ensure all documentation strictly aligns with local building codes, oversee plan reviews, and rapidly address agency feedback to keep your project compliant and on track.</p>
-                            <h4>What’s included:</h4>
-                            <ul class="ic-list">
-                                <li>AHJ permit submission</li>
-                                <li>Utility Interconnection application</li>
-                                <li>Plan review coordination</li>
-                                <li>Code-compliant documentation</li>
-                                <li>Engineering revisions</li>
-                                <li>Final approval support</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ========== STATS SECTION ========== -->
-            <section class="ic-stats">
-                <div class="ic-stats__container">
-                    <h2 class="ic-stats__title">End-to-End Solar Interconnection and Permitting Services</h2>
-                    <div class="ic-stats__grid">
-                        <div class="ic-stat">
-                            <div class="ic-stat__number">100%</div>
-                            <div class="ic-stat__bar"><div class="ic-stat__fill"></div></div>
-                        </div>
-                        <div class="ic-stat">
-                            <div class="ic-stat__number">ALL 50</div>
-                            <div class="ic-stat__label">States and Canada</div>
+                        <div class="ic-gallery__item">
+                            <img src="/images/previous-work.png" />
                         </div>
                     </div>
                 </div>

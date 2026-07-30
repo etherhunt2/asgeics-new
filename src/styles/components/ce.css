@@ -2,7 +2,8 @@
 
 /* Hero Section */
 .ce-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/images/modern-solar-power-station-generates-sustainable-electricity-outdoors-generated-by-ai.jpg");
   background-size: cover;
   background-position: center;
@@ -50,15 +51,16 @@
 }
 
 .ce-services__overview h2 {
-  font-size: 2.5rem;
-  color: #3498db;
+  font-size: 4rem;
+  color: #64150b;
+  font-family: var(--font-cursive);
   margin-bottom: 20px;
 }
 
 .ce-services__overview p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: crimson;
+  color: black;
 }
 
 /* Service Cards Grid */
@@ -132,7 +134,7 @@
 
 .ce-services__commitment h2 {
   font-size: 2rem;
-  color: #1a0ce793;
+  color: #326d82;
   margin-bottom: 20px;
 }
 
@@ -153,7 +155,7 @@
   }
 
   .ce-services__overview h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .ce-services__grid {

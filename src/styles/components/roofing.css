@@ -327,6 +327,8 @@
   pointer-events: none;
   z-index: 20;
   text-align: center;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .roofing-hotspot:hover .roofing-hotspot__card {

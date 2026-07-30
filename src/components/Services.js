@@ -32,8 +32,8 @@ export default class Services extends BaseComponent {
                     </div>
 
                     <div class="service-card">
-                        <div class="service-card__icon">
-                            <img src="./icons/approved.png" alt="Permit Processing" style="width: 40%;">
+                        <div class="service-card__image img-scale">
+                            <img src="./images/permit.jpeg" alt="Permit Processing" style="width: 40%;">
                         </div>
                         <h3 class="service-card__title">Permit Processing</h3>
                         <p class="service-card__description">Streamlined permit application and processing services</p>
