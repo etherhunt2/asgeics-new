@@ -14,7 +14,7 @@ export default class DiscoveryCall extends BaseComponent {
         <div class="onboarding-banner__left">
           <div class="onboarding-banner__content">
             <h1 class="onboarding-banner__title">
-              <strong>Get Onboarded</strong> with Ensite
+              <strong>Get Onboarded</strong> with ASGEICS
             </h1>
             <p class="onboarding-banner__subtitle">
               Submit your information to begin the free account creation and onboarding process.

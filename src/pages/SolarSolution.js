@@ -180,7 +180,7 @@ export default class SolarSolution extends BaseComponent {
                             <li>Push notifications on job status and completion</li>
                             <li>Download all files, reports and site data</li>
                         </ul>
-                        <a href="/contact" class="solar-btn solar-btn--primary">Get Started</a>
+                        <a href="/get-started" class="solar-btn solar-btn--primary">Get Started</a>
                     </div>
                 </div>
             </section>

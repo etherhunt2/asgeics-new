@@ -42,5 +42,5 @@ export default defineConfig({
         historyApiFallback: true
     },
     publicDir: 'public',
-    base: './'
+    base: '/'
 }); 
