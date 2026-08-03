@@ -1,13 +1,13 @@
-import BaseComponent from './BaseComponent.js';
+import BaseComponent from "./BaseComponent.js";
 
 export default class Benefits extends BaseComponent {
-    constructor() {
-        super('section', 'benefits');
-        this.element.id = 'benefits';
-    }
+  constructor() {
+    super("section", "benefits");
+    this.element.id = "benefits";
+  }
 
-    async render() {
-        this.element.innerHTML = `
+  async render() {
+    this.element.innerHTML = `
             <div class="benefits__container">
                 <header class="benefits__header">
                     <h2 class="benefits__title">Why Choose Us</h2>
@@ -48,14 +48,14 @@ export default class Benefits extends BaseComponent {
                     </div>
                     <div class="benefit-card">
                         <div class="benefit-card__icon">
-                            <img src="./icons/piggy-bank-save.svg" alt="50% Cost Saving" style="width: 4.5rem; height: 6.5rem;" />
+                            <img src="./icons/bank.png" alt="50% Cost Saving" style="width: 4.5rem; height: 6.5rem;" />
                         </div>
                         <h3 class="benefit-card__title">50% Cost Saving</h3>
                         <p class="benefit-card__description">Save 50% on your solar certificate and PE stamps.</p>
                     </div>
                     <div class="benefit-card">
                         <div class="benefit-card__icon">
-                            <img src="./icons/payment-method.svg" alt="Flexible Payment Options" style="width: 4.5rem; height: 6.5rem;" />
+                            <img src="./icons/card.png" alt="Flexible Payment Options" style="width: 4.5rem; height: 6.5rem;" />
                         </div>
                         <h3 class="benefit-card__title">Flexible Payment Options</h3>
                         <p class="benefit-card__description">Pay as you go or pay in advance.</p>
@@ -92,6 +92,6 @@ export default class Benefits extends BaseComponent {
             </div>
         `;
 
-        return this.element;
-    }
-} 
+    return this.element;
+  }
+}

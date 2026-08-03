@@ -35,16 +35,12 @@ export default class Footer {
                     <div class="footer__section">
                         <h3 class="footer__title">Contact Info</h3>
                         <ul class="footer__links">
-                            <li class="footer__link" onclick="window.location.href='mailto:info@asgeicsindia.com'" style="cursor: pointer;">Email: info@asgeicsindia.com</li>
+                            <li class="footer__link" onclick="window.location.href='mailto:info@asgeicsindia.com'" style="cursor: pointer;">Email: demo@asgeicsindia.uk</li>
                             
                             <li class="footer__link" style="margin-top: 8px; font-weight: 600;">US Office</li>
                             <li class="footer__link">Address: 30 N Gould St Sheridan, WY 82801</li>
-                            <li class="footer__link" onclick="window.location.href='tel:+12534008394'" style="cursor: pointer;">Phone: (253) 400-8394</li>
-                            
-                            <li class="footer__link" style="margin-top: 8px; font-weight: 600;">India Office</li>
-                            <li class="footer__link">Address: Plot 231, Sahu Tola, Marar, Ramgarh, Jharkhand 829122</li>
-                            <li class="footer__link" onclick="window.location.href='tel:+918587011172'" style="cursor: pointer;">Phone: +91 858 701 1172</li>
-                        </ul>
+                            <li class="footer__link" onclick="window.location.href='tel:+12534008394'" style="cursor: pointer;">Phone: +12534008394</li>
+                          </ul>
                     </div>
                 </div>
 

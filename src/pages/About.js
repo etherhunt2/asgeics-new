@@ -131,6 +131,18 @@ export default class About extends BaseComponent {
                             <h3 class="team_member_name">Ayush bansal</h3>
                             <p class="team_member_position">Financial Advisor</p>
                         </div>
+                        <div class="team_member">
+                            <h3 class="team_member_name">Piyush R</h3>
+                            <p class="team_member_position">Designer</p>
+                        </div>
+                        <div class="team_member">
+                            <h3 class="team_member_name">Mukesh Kr</h3>
+                            <p class="team_member_position">Designer</p>
+                        </div>
+                        <div class="team_member">
+                            <h3 class="team_member_name">Madhu S</h3>
+                            <p class="team_member_position">Designer</p>
+                        </div>
                     </div>
                 </div>
                 <div class="whatsapp-container">

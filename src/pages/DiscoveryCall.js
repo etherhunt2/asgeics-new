@@ -99,8 +99,8 @@ export default class DiscoveryCall extends BaseComponent {
       </section>
     `;
 
-    const form = this.element.querySelector("#onboarding-form");
-    form.addEventListener("submit", this.handleSubmit.bind(this));
+    // const form = this.element.querySelector("#onboarding-form");
+    // form.addEventListener("submit", this.handleSubmit.bind(this));
 
     return this.element;
   }
@@ -178,12 +178,12 @@ export default class DiscoveryCall extends BaseComponent {
       };
 
       // Send the email
-      const response = await emailjs.send(
-        "service_uuc5hrx",
-        "template_o21jldq",
-        templateParams,
-        "S9VAbYSq17CKAkjUz",
-      );
+      // const response = await emailjs.send(
+      //   "service_uuc5hrx",
+      //   "template_o21jldq",
+      //   templateParams,
+      //   "S9VAbYSq17CKAkjUz",
+      // );
 
       console.log("SUCCESS!", response.status, response.text);
       alert("Message sent successfully!");

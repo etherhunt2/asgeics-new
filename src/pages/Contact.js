@@ -5,7 +5,7 @@ export default class Contact extends BaseComponent {
   constructor() {
     super("main", "contact-page");
     // Initialize EmailJS
-    emailjs.init("S9VAbYSq17CKAkjUz");
+    // emailjs.init("S9VAbYSq17CKAkjUz");
   }
 
   async render() {
@@ -69,38 +69,17 @@ export default class Contact extends BaseComponent {
                                             </div>
                                             <div class="office-card__detail">
                                                 <i class="fas fa-phone-alt"></i>
-                                                <p>(253) 400-8394</p>
+                                                <p>(253) 800-9992</p>
                                             </div>
                                         </div>
                                         <div class="office-section__action">
-                                            <a href="https://maps.app.goo.gl/yX6Rnk7ZfgHegu4W8" target="_blank" rel="noopener noreferrer" class="btn-locate-map">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-locate-map">
                                                 <i class="fas fa-map-marker-alt"></i> Locate US Office
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="contact-divider"></div>
-
-                                    <!-- India Office -->
-                                    <div class="office-section">
-                                        <h3 class="office-card__title">ASGEICS INDIA (India)</h3>
-                                        <div class="office-section__content">
-                                            <div class="office-card__detail">
-                                                <i class="fas fa-map"></i>
-                                                <p>Plot 231, Sahu Tola<br>Marar, Ramgarh, Jharkhand 829122</p>
-                                            </div>
-                                            <div class="office-card__detail">
-                                                <i class="fas fa-phone-alt"></i>
-                                                <p>+91 858 701 1172</p>
-                                            </div>
-                                        </div>
-                                        <div class="office-section__action">
-                                            <a href="https://www.google.com/maps/place/Marar,+Jharkhand+829117,+India/@23.6738479,85.5096519,3a,75y,337.07h,90.47t/data=!3m7!1e1!3m5!1skiagYxCrW9-ky4Qf-4lY6g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.47226213980252396%26panoid%3DkiagYxCrW9-ky4Qf-4lY6g%26yaw%3D337.0729424445742!7i13312!8i6656!4m7!3m6!1s0x39f4f3427617bdc5:0x149db90692dc9705!8m2!3d23.6715992!4d85.5071469!15sCi5QbG90IG5vIDIzMSwgU2FodSBUb2xhIE1hcmFyIHJhbWdhcmggamhhcmtoYW5kkgEIbG9jYWxpdHngAQA!16s%2Fg%2F12hr00d0c?entry=tts&g_ep=EgoyMDI2MDUxMC4wIPu8ASoASAFQAw%3D%3D&skid=3941a888-c3af-4419-9573-d09a1d4673f4"
-                                                target="_blank" rel="noopener noreferrer" class="btn-locate-map">
-                                                <i class="fas fa-map-marker-alt"></i> Locate India Office
-                                            </a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +89,8 @@ export default class Contact extends BaseComponent {
         `;
 
     // Initialize contact form
-    const form = this.element.querySelector("#contact-form");
-    form.addEventListener("submit", this.handleSubmit.bind(this));
+    // const form = this.element.querySelector("#contact-form");
+    // form.addEventListener("submit", this.handleSubmit.bind(this));
 
     return this.element;
   }
@@ -159,12 +138,12 @@ export default class Contact extends BaseComponent {
       };
 
       // Send the email
-      await emailjs.send(
-        "service_uuc5hrx",
-        "template_pwiajia",
-        templateParams,
-        "S9VAbYSq17CKAkjUz",
-      );
+      // await emailjs.send(
+      //   "service_uuc5hrx",
+      //   "template_pwiajia",
+      //   templateParams,
+      //   "S9VAbYSq17CKAkjUz",
+      // );
 
       // console.log('SUCCESS!', response.status, response.text);
       alert("Message sent successfully!");

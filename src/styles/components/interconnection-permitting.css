@@ -285,9 +285,9 @@
 }
 
 .ic-gallery__title h2 {
-  font-family: var(--font-cursive);
+  font-family: var(--font-secondary);
   font-size: 4rem;
-  font-weight: 900;
+  font-weight: 700;
   color: #326d82;
   margin-bottom: 12px;
   line-height: 1.3;
@@ -295,7 +295,7 @@
 
 .ic-gallery__title p {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.6;
   color: var(--radiant-gray);
 }
