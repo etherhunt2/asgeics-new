@@ -71,7 +71,7 @@ export default class StructuralEngineering extends BaseComponent {
                 </div>
             </section>
             <div class="whatsapp-container">
-                <a href="https://wa.link/6caatk" class="whatsapp-button">
+                <a href="#" class="whatsapp-button">
                     <img src="./icons/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
                     <span class="whatsapp-text">Chat on WhatsApp</span>
                 </a>
